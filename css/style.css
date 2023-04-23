@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    /* padding: 30px 20px; */
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 90px;
+    width: 70%;
+    height: 40px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: rgb(69, 69, 69);
+
+    background-color: rgb(206, 196, 196);
+
+}
+ul li:hover {
+    background-color: rgb(164, 153, 153);
+}
+ul li span:first-child {
+    color: black;
+    position: absolute;
+    left: 160px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+
+}
+ul li span:nth-child(2) {
+    position: absolute;
+    left: 45%;
+    margin-left: 70px;
+    color: black;
+
+}
+
+label {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-left: 50px;
+    margin-bottom:10px;
+}
+input {
+    width: 20%;
+    height: 20px;
+    padding-left: 50px;
+}
+#price {
+  margin-left: 9px;
+}
+.submit {
+    background-color: green;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+button {
+    font-size: 1.1rem;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+.checkbox {
+    position: absolute;
+    left: -60px;
+}
+.deleteBtn {
+    position: absolute;
+    right: 45px;
+    bottom: 20%;
+  background: rgb(223, 50, 50);
+}
+.editBtn {
+    position: absolute;
+    bottom: 20%;
+    right: 125px;
+    background-color: rgb(70, 70, 223);
+}
